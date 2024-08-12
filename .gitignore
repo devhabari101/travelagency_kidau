@@ -1,0 +1,105 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Django migrations
+**/migrations/
+**/migrations/*.py
+**/migrations/*.pyc
+
+# Environment variables
+.env
+*.env
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+db.sqlite3
+media
+staticfiles
+node_modules
+
+# If you are using PostgreSQL:
+*.pgdata
+
+# Venv and related files
+venv/
+ENV/
+env/
+.venv/
+.idea/
+.vscode/
+
+# IDE settings
+*.sublime-project
+*.sublime-workspace
+
+# VS Code specific
+.vscode/
+
+# PyCharm specific
+.idea/
+*.iml
+.idea/
+*.iws
+*.ipr
+.idea/
+
+# macOS files
+.DS_Store
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints
+
+# Local settings
+settings_local.py
+
+# pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# mypy
+.mypy_cache/
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# Sphinx documentation
+docs/_build/
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# pytest
+.pytest_cache/
+pytestdebug.log
+
+# MySQL
+*.sql
+
+# Staticfiles
+static/
+staticfiles/
+django_static/
+
+# Media files
+media/
